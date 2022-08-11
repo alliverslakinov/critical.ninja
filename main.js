@@ -2381,7 +2381,7 @@ async function main(){ // main asyncronous thread; mostly initializes the user s
 		`;
 		document.head.appendChild(styleTmp);
 	}
-	getById("credits").innerHTML = "Version: " + session.version + " - " + getById("credits").innerHTML;
+	//getById("credits").innerHTML = "Version: " + session.version + " - " + getById("credits").innerHTML;
 
 	if (urlParams.has('minidirector')) {
 		try {
